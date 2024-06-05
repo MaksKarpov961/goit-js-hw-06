@@ -6,8 +6,7 @@ function formatMessage(message, maxLength){
   if (longString <= maxLength) {
     return message;
   } else {
-    // message = message.trim()
-    return `${message.slice(0, (maxLength + 1))}...`;
+    return `${message.slice(0, maxLength )}...`;
   }
 
 }
