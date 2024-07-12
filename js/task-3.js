@@ -8,7 +8,7 @@ function filterArray(numbers, value) {
       array.push(iterator);
     }
   }
-return array;
+  return array;
 }
 
 
